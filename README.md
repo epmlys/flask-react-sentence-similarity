@@ -1,39 +1,50 @@
-# [Flask Boilerplate](https://appseed.us/boilerplate-code/flask-boilerplate)
+# [Flask React Sentence Similarity](https://youtu.be/Hn-v9SM0xZU)
 
-Simple [Flask](http://flask.pocoo.org/) Starter enhanced with JWT authentication and REST API 
-
-<br />
-
-![Open-Source Flask Boilerplate - Product cover image.](https://github.com/app-generator/static/blob/master/products/boilerplate-code-flask-boilerplate-cover.jpg?raw=true) 
+Demo [video](https://youtu.be/Hn-v9SM0xZU) Sentence similarity web app based on Flask, React and Spacy
 
 <br />
 
-## Setting up a development environment
+## How to install
 
-* clone repo: `git clone https://github.com/app-generator/flask-boilerplate.git` 
-* change directory to flask-boilerplate
+* clone repo: `git clone git@github.com:epmlys/flask-react-sentence-similarity.git`
+* change directory to flask-react-sentence-similarity
 * `pip install -r requirements.txt`
 
 <br />
 
-## Running the app
+## Running the Flask API backend
 
 * `flask run` ( app is started on default port 5000 )
-* `flask run` --port 3500 ( to start on specific port)
+* `flask run` --port 3000 ( to start on specific port)
 
 <br />
 
-## Support
+## React web App
 
-For issues and features request, use **Github** or access the [support page](https://appseed.us/support) provided by **AppSeed** 
-
-<br />
-
-## License
-MIT @ [AppSeed](https://appseed.us)
+## Requirements
+- [Node.js](https://nodejs.org/) >= 6.x
 
 <br />
 
----
-[Flask Boilerplate](https://appseed.us/boilerplate-code/flask-boilerplate) provided by **AppSeed**
+## How to install
+ - change directory to this project: `cd flask-react-sentence-similarity/material-kit-react`
+ - Default backend URL `http://127.0.0.1:3000`. This can be overwritten by updating the file: `src/views/LoginPage/LoginPage.jsx`
+
+<br />
+
+**Install Dependencies**
+```bash
+$ yarn
+```
+
+**Start app for development**
+* **Linux/MacOs**:
+```yarn start```
+
+* Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, `scripts \ start` attribute.
+
+**Production Build**
+* **Linux/MacOs**:
+`yarn build` - build the app in `build` directory
+
 
