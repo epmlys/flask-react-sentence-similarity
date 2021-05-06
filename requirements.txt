@@ -7,7 +7,7 @@ cymem==2.0.3
 en-core-web-lg==2.2.5
 en-core-web-md==2.2.5
 Flask==1.0.2
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 Flask-JWT-Simple==0.0.3
 idna==2.9
 importlib-metadata==1.6.0
